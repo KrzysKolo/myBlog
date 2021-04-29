@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Barrio&family=Cutive+Mono&family=Meddon&family=Princess+Sofia&family=Snowburst+One&display=swap");
+
+/* font-family: 'Barrio', cursive;
+font-family: 'Cutive Mono', monospace;
+font-family: 'Meddon', cursive;
+font-family: 'Princess Sofia', cursive;
+font-family: 'Snowburst One', cursive; */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav h1 {
+  color: #b30070;
+  font-family: "Princess Sofia", cursive;
+  font-size: 2.4rem;
+  letter-spacing: 8px;
+  margin-left: 3rem;
+  padding: 0.8rem;
+  text-shadow: 3px 3px 4px rgba(#151a44, 0.9);
+}
+
+nav ul {
+  font-family: "Cutive Mono", monospace;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-right: 3rem;
+}
+.link {
+  font-weight: 600;
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #151a44;
+  transition: all 0.3s ease-in-out;
+}
+.link:hover {
+  color: #b30070;
+}

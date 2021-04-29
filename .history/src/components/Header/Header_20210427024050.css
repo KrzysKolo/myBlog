@@ -1,0 +1,11 @@
+header {
+  border-bottom: 1px solid #e5e5e5;
+}
+header section {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

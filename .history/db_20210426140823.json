@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to the new blog",
+      "body": "Długi opis i takie tam coś jeszcze",
+      "likes": 30
+    },
+    {
+      "id": 2,
+      "title": "Jak być przed rozwodem?",
+      "body": "Długi opis i takie tam coś jeszcze",
+      "likes": 30
+    },
+    {
+      "id": 3,
+      "title": "coś tam jeszczeg",
+      "body": "Długi opis i takie tam coś jeszcze",
+      "likes": 5
+    }
+  ]
+}

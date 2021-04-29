@@ -1,0 +1,8 @@
+header {
+  height: 80px;
+  border-bottom: 1px solid #e5e5e5;
+}
+header section {
+  width: 90vw;
+  margin: 0 auto;
+}

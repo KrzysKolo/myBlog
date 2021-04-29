@@ -1,0 +1,13 @@
+.blog-preview {
+  border: 2px solid red;
+  border-radius: 20px;
+  width: 80vw;
+  margin-bottom: 2rem;
+  font-family: "Princess Sofia", cursive;
+}
+.blog-preview h3 {
+  font-size: 1.75rem;
+  color: #b30070;
+  padding: 1rem;
+  border-bottom: 1px solid #efefef;
+}

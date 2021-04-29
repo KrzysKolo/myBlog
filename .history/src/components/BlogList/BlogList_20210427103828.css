@@ -1,0 +1,10 @@
+.blog-preview {
+  border: 2px solid red;
+  border-radius: 20px;
+  width: 80vw;
+}
+.blog-preview h1 {
+  font-size: 1.2rem;
+  color: #b30070;
+  padding: 1rem;
+}

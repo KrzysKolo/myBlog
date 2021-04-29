@@ -1,0 +1,93 @@
+.post-preview {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 80vw;
+  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  font-family: "Princess Sofia", cursive;
+  color: #151a44;
+}
+.header__post-preview {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 0.8rem;
+  box-shadow: 1px 0px 2px #151a44;
+}
+.header__post-preview .photo {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  border: 2px solid #151a44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-right: 1rem;
+}
+.header__post-preview .photo img {
+  height: 99%;
+  border-radius: 50%;
+}
+.header__post-preview .title-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 1rem;
+}
+.header__post-preview .title-info .title-post {
+  font-size: 1.75rem;
+  color: #b30070;
+}
+.blog-preview h3 {
+  font-size: 1.75rem;
+  color: #b30070;
+  padding: 0.8rem;
+  border-bottom: 1px solid #efefef;
+  margin: 0 2rem;
+}
+.blog-preview .author {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 4rem;
+}
+.blog-preview .author h4 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.75rem;
+  padding-bottom: 0.85rem;
+  padding-top: 0.4rem;
+}
+.blog-preview .author .photo {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #151a44;
+  box-shadow: -2px 1px 8px #151a44;
+  border-radius: 50%;
+  transform: translateY(-12px);
+  margin-right: 0.2rem;
+}
+.blog-preview .author .photo img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 30px;
+  height: 30px;
+}
+.blog-preview p {
+  font-size: 1.5rem;
+}
+.blog-title {
+  margin: 1.5rem auto;
+  font-size: 2rem;
+  color: #151a44;
+  font-family: "Cutive Mono", monospace;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blog-preview a {
+  text-decoration: none;
+}

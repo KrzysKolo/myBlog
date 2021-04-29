@@ -1,0 +1,25 @@
+.blog-preview {
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  width: 80vw;
+  margin-bottom: 2rem;
+  font-family: "Princess Sofia", cursive;
+  color: #151a44;
+}
+.blog-preview h3 {
+  font-size: 1.75rem;
+  color: #b30070;
+  padding: 0.8rem;
+  border-bottom: 1px solid #efefef;
+}
+.blog-preview h4 {
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px 0;
+}
+.blog-preview p {
+  font-size: 1.5rem;
+}
+.blog-title {
+  margin: 1rem auto;
+  font-size: 2rem;
+}
