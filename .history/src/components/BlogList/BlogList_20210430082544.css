@@ -14,21 +14,11 @@
   border-bottom: 1px solid #efefef;
   margin: 0 2rem;
 }
-.blog-preview .blog-ico {
-  transform: translateY(20px);
-  display: flex;
-  justify-content: flex-end;
-}
-.blog-preview .blog-ico .ico {
-  color: #b30070;
+.blog-preview .ico {
+  color: red;
   font-size: 1.5rem;
+  transform: translateY(20px);
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  transform: scale(1);
-}
-.blog-preview .blog-ico .ico:hover {
-  color: #151a44;
-  transform: scale(1.1);
 }
 .blog-preview .author {
   display: flex;

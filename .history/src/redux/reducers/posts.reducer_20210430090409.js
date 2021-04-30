@@ -93,26 +93,6 @@ export function postsReducer ( state = initialState, action) {
                 error: true,
                 loading: false,
             };
-        //DELETE ONE POST
-        case DELETE_POST:
-            return {
-                ...state,
-                error: null,
-                loading: true
-            };
-        case DELETE_POST_SUCCESS:
-            return {
-                ...state,
-                error: null,
-                loading: false,
-                posts: state.posts.filter(post => post.id !== action.payload)
-            };
-        case DELETE_POST_FAILURE:
-            return {
-                ...state,
-                error: true,
-                loading: false,
-            };
         default:
             return state
     }

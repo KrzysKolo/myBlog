@@ -20,6 +20,20 @@
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis ornare sollicitudin. Maecenas accumsan, lectus at imperdiet cursus, augue nibh pharetra lacus, at placerat leo erat maximus nibh. Nunc tincidunt lorem nulla, laoreet aliquet lorem cursus ut. Integer arcu ante, ornare eu egestas eget, tincidunt at neque. Suspendisse a suscipit.",
       "author": "Barbara Kołodziejczak",
       "photo": "https://randomuser.me/api/portraits/women/73.jpg"
+    },
+    {
+      "title": "TYTUŁ 1",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum efficitur massa. Proin condimentum nisl quis arcu feugiat, laoreet maximus lorem vestibulum. Phasellus aliquam nibh et dui imperdiet, suscipit ultrices est pretium. Aliquam ac.",
+      "author": "KK",
+      "photo": "",
+      "id": 4
+    },
+    {
+      "id": "1ec5f050-e8d0-4540-93d1-25fd22f2655b",
+      "title": "misiu 1",
+      "body": "opisze Ci misa jak przyjdzie na to czas",
+      "author": "yy",
+      "photo": "https://www.tapetus.pl/obrazki/n/23780_walentynki-serduszko-misiek.jpg"
     }
   ]
 }

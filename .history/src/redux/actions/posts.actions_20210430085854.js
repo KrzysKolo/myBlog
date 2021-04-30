@@ -119,35 +119,35 @@ export function getPostsAction () {
     });
 
   //DELETE ONE POST
-  export function deletePostAction(id) {
+  export function addNewPostAction(post) {
     return dispatch => {
-      dispatch(deletePost());
+      dispatch(newPost());
 
       setTimeout(() => {
         axiosClient
-        .delete(`./posts/${id}`)
+        .post('./posts/', post)
         .then( response =>{
           console.log(response.data)
-          dispatch(deletePostSuccess(id))
+          dispatch(newPostSuccess(post))
         })
         .catch(error =>{
           console.log(error);
-          dispatch(deletePostFailure());
+          dispatch(newPostFailure());
         });
       }, 500)
       };
     }
 
-    export const deletePost = () => ({
-      type: DELETE_POST
+    export const newPost = () => ({
+      type: ADD_POST
     });
 
-    export const deletePostSuccess = (id) => ({
-      type: DELETE_POST_SUCCESS,
-      payload: id
+    export const newPostSuccess = (post) => ({
+      type: ADD_POST_SUCCESS,
+      payload: post
     });
 
-    export const deletePostFailure = () => ({
-      type: DELETE_POST_FAILURE
+    export const newPostFailure = (post) => ({
+      type: ADD_POST_FAILURE
     });
 

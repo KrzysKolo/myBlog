@@ -23,7 +23,7 @@ const PostNew = () => {
       .required('Required'),
     body: Yup.string()
       .min(2, "The message must contain at least 2 characters")
-      .max(5000, "The message may contain max 5000 characters")
+      .max(500, "The message may contain max 250 characters")
       .required('Required'),
     author: Yup.string()
       .min(2, "The signature must contain at least 2 characters")
@@ -55,9 +55,12 @@ const PostNew = () => {
             photo: ''
           }}
           validationSchema={validate}
-          onSubmit={onSubmit}
+          onSubmit={() =>
+            onSubmit(),
+            restForm()
+          }
         >
-          {(formik) => (
+          {() => (
             <div>
               <h1 className="form-title">Add Post</h1>
               <Form className="form-wrapper" >

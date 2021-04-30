@@ -12,15 +12,11 @@ import { deletePostAction } from './../../redux/actions/posts.actions';
 
 const BlogList = ({ blogs}) => {
 
-  const dispatch = useDispatch();
-  const  removeTodo = (id) => {
-    dispatch(deletePostAction(id))
-  }
-
+	//
   const blogItem = blogs.map(blog => (
     <div className="blog-preview" key={blog.id}>
       <div className="blog-ico">
-        <FontAwesomeIcon icon={faMinusSquare} className="ico" onClick={() => removeTodo(blog.id)}/>
+        <FontAwesomeIcon icon={faMinusSquare} className="ico" onClick={() => console.log("edytuj")}/>
       </div>
       <Link to={`/post/${blog.id}` }>
         <h3>{blog.title}</h3>

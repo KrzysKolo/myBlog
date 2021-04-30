@@ -105,7 +105,7 @@ export function postsReducer ( state = initialState, action) {
                 ...state,
                 error: null,
                 loading: false,
-                posts: state.posts.filter(post => post.id !== action.payload)
+                posts: state.posts.filter(post => post.id !=== action.payload)
             };
         case DELETE_POST_FAILURE:
             return {

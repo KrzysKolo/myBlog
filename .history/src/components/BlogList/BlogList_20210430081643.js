@@ -6,28 +6,17 @@ import './BlogList.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMinusSquare } from '@fortawesome/free-solid-svg-icons';
 
-//import { connect } from 'react-redux'
-import { useDispatch } from 'react-redux';
-import { deletePostAction } from './../../redux/actions/posts.actions';
-
 const BlogList = ({ blogs}) => {
 
-  const dispatch = useDispatch();
-  const  removeTodo = (id) => {
-    dispatch(deletePostAction(id))
-  }
-
+	//
   const blogItem = blogs.map(blog => (
     <div className="blog-preview" key={blog.id}>
-      <div className="blog-ico">
-        <FontAwesomeIcon icon={faMinusSquare} className="ico" onClick={() => removeTodo(blog.id)}/>
-      </div>
+      <FontAwesomeIcon icon={faMinusSquare} className="ico" onClick={() => console.log("edytuj")}/>
       <Link to={`/post/${blog.id}` }>
         <h3>{blog.title}</h3>
         </Link>
 
-        <div className="author">
-        <div className="photo">
+        <div className="author"><div className="photo">
           <img src={blog.photo} alt={blog.author} />
         </div><h4>Written by: {blog.author}</h4></div>
       </div>

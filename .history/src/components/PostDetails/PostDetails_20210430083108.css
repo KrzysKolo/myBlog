@@ -19,11 +19,9 @@
   color: #b30070;
   font-size: 1.5rem;
   transition: all 0.2s ease-in-out;
-  transform: scale(1);
 }
 .header-icons .ico:hover {
   color: #151a44;
-  transform: scale(1.1);
 }
 .section__post-preview {
   margin-top: 1.5rem;

@@ -20,15 +20,10 @@
   justify-content: flex-end;
 }
 .blog-preview .blog-ico .ico {
-  color: #b30070;
+  color: red;
   font-size: 1.5rem;
+
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  transform: scale(1);
-}
-.blog-preview .blog-ico .ico:hover {
-  color: #151a44;
-  transform: scale(1.1);
 }
 .blog-preview .author {
   display: flex;
