@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom';
 import './PostDetails.css';
 import Loading from './../Loading';
 import PostEdit from './../PostEdit';
-
 //fontAwsome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBackward, faEdit } from '@fortawesome/free-solid-svg-icons';
@@ -32,7 +31,6 @@ const PostDetails = () => {
   //if(!post) return "Loading...";
   //EDIT POST
   const [showFormEditPost, setShowEditPost] = useState(false);
-
   const openFormEditPost = () => {
     setShowEditPost(prev => !prev);
   };
@@ -47,7 +45,7 @@ const PostDetails = () => {
         <header className="header">
            <div className="header-icons">
               <FontAwesomeIcon icon={faBackward} className="ico" onClick={() => console.log("powrót")}/>
-              <FontAwesomeIcon icon={faEdit} className="ico" onClick={openFormEditPost}/>
+              <FontAwesomeIcon icon={faEdit} className="ico" onClick={() => {openFormEditPost}}/>
             </div>
             <section className="section__post-preview">
               <div className="photo">
@@ -65,7 +63,6 @@ const PostDetails = () => {
         </section>)
        }
       </section>
-      <PostEdit showFormEditPost={showFormEditPost} setShowEditPost={setShowEditPost} />
     </>
   )
 }

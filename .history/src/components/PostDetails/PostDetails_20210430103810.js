@@ -47,7 +47,7 @@ const PostDetails = () => {
         <header className="header">
            <div className="header-icons">
               <FontAwesomeIcon icon={faBackward} className="ico" onClick={() => console.log("powrót")}/>
-              <FontAwesomeIcon icon={faEdit} className="ico" onClick={openFormEditPost}/>
+              <FontAwesomeIcon icon={faEdit} className="ico" onClick={() => {openFormEditPost}}/>
             </div>
             <section className="section__post-preview">
               <div className="photo">

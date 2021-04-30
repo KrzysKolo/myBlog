@@ -155,7 +155,7 @@ export function postsReducer ( state = initialState, action) {
                 ...state,
                 error: null,
                 loading: false,
-                post: action.payload
+                posts: state.posts.map(post => post.id === action.payload.id ? (post = action.payload) : post)
             };
         case EDIT_POST_FAILURE:
             return {

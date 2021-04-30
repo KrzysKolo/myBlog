@@ -143,26 +143,6 @@ export function postsReducer ( state = initialState, action) {
                 error: true,
                 loading: false,
             };
-        //EDIT POST
-        case EDIT_POST:
-            return {
-                ...state,
-                error: null,
-                loading: true
-            };
-        case EDIT_POST_SUCCESS:
-            return {
-                ...state,
-                error: null,
-                loading: false,
-                post: action.payload
-            };
-        case EDIT_POST_FAILURE:
-            return {
-                ...state,
-                error: true,
-                loading: false,
-            };
         default:
             return state
     }

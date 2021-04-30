@@ -38,7 +38,7 @@ const PostNew = () => {
       title: values.title,
       body: values.body,
       author: values.author,
-      photo: values.photo ? values.photo : "https://as2.ftcdn.net/jpg/03/17/59/23/1000_F_317592306_6B3DH5u4NMG2uAF068da5QMcWhR2QTBN.jpg",
+      photo: values.photo ? values.photo : "https://img.pixers.pics/pho_wat(s3:700/FO/63/90/51/08/700_FO63905108_c7e91c959273a2a7593f2b56b662b4aa.jpg,700,700,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,650,jpg)/plakaty-mis-pluszowy.jpg.jpg",
     };
     addPost(newPost);
     restForm();

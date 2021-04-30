@@ -24,11 +24,6 @@ import {
      UPDATE_POST_SUCCESS,
      UPDATE_POST_FAILURE,
 
-  //EDIT POST
-     EDIT_POST,
-     EDIT_POST_SUCCESS,
-     EDIT_POST_FAILURE,
-
   } from '../constants';
 
   import axiosClient from './../api/posts';
@@ -197,7 +192,7 @@ export function updatePostAction(post) {
 // EDIT POST
 export function editPostAction(id) {
   return dispatch => {
-    dispatch(editPost(id));
+    dispatch(editPost());
 
     setTimeout(() => {
       axiosClient

@@ -24,11 +24,6 @@ import {
      UPDATE_POST_SUCCESS,
      UPDATE_POST_FAILURE,
 
-  //EDIT POST
-     EDIT_POST,
-     EDIT_POST_SUCCESS,
-     EDIT_POST_FAILURE,
-
   } from '../constants';
 
   import axiosClient from './../api/posts';

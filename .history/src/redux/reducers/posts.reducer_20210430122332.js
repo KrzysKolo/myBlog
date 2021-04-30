@@ -24,11 +24,6 @@ import {
     UPDATE_POST_SUCCESS,
     UPDATE_POST_FAILURE,
 
-  //EDIT POST
-    EDIT_POST,
-    EDIT_POST_SUCCESS,
-    EDIT_POST_FAILURE,
-
 } from './../constants';
 
 const initialState = {
@@ -138,26 +133,6 @@ export function postsReducer ( state = initialState, action) {
                 posts: state.posts.map(post => post.id === action.payload.id ? (post = action.payload) : post)
             };
         case UPDATE_POST_FAILURE:
-            return {
-                ...state,
-                error: true,
-                loading: false,
-            };
-        //EDIT POST
-        case EDIT_POST:
-            return {
-                ...state,
-                error: null,
-                loading: true
-            };
-        case EDIT_POST_SUCCESS:
-            return {
-                ...state,
-                error: null,
-                loading: false,
-                post: action.payload
-            };
-        case EDIT_POST_FAILURE:
             return {
                 ...state,
                 error: true,

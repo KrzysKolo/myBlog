@@ -1,0 +1,70 @@
+.form-edit-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-edit-wrapper .form-edit {
+  border: 3px solid #b30070;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(127, 5, 80, 0.5);
+  color: #b30070;
+  background-color: rgb(252, 246, 246);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form-wrapper .form-edit .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  font-size: 1rem;
+  padding: 3px 6px;
+  margin: 0.5rem 0;
+  color: #151a44;
+  font-family: "Cutive Mono", monospace;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+.form-title {
+  font-size: 2rem;
+  color: #b30070;
+  padding: 0.75rem;
+  text-align: center;
+  font-family: "Meddon", cursive;
+  border-bottom: 1px solid #efefef;
+}
+.form-edit-label {
+  padding-bottom: 2px;
+  margin-top: 5px;
+}
+.form-edit-input {
+  font-size: 1.1rem;
+  padding: 3px 5px;
+}
+.btn-form-edit {
+  color: #b30070;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #b30070;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 1px 1px 4px #b30070;
+  margin-left: 1rem;
+  cursor: pointer;
+  font-family: "Cutive Mono", monospace;
+  font-size: 1.1rem;
+}
+.btn:hover {
+  color: #151a44;
+  border: 1px solid #151a44;
+  box-shadow: 1px 1px 4px #151a44;
+}

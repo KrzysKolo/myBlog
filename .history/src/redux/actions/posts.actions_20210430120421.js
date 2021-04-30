@@ -24,11 +24,6 @@ import {
      UPDATE_POST_SUCCESS,
      UPDATE_POST_FAILURE,
 
-  //EDIT POST
-     EDIT_POST,
-     EDIT_POST_SUCCESS,
-     EDIT_POST_FAILURE,
-
   } from '../constants';
 
   import axiosClient from './../api/posts';
@@ -161,68 +156,3 @@ export function getPostsAction () {
       type: DELETE_POST_FAILURE
     });
 
-// UPDATE POST
-export function updatePostAction(post) {
-  return dispatch => {
-    dispatch(updatePost());
-
-    setTimeout(() => {
-      axiosClient
-      .put(`./posts/${post.id}`)
-      .then( response =>{
-        console.log(response.data)
-        dispatch(updatePostSuccess(post))
-      })
-      .catch(error =>{
-        console.log(error);
-        dispatch(updatePostFailure());
-      });
-    }, 500)
-    };
-  }
-
-  export const updatePost = () => ({
-    type: UPDATE_POST
-  });
-
-  export const updatePostSuccess = (post) => ({
-    type: UPDATE_POST_SUCCESS,
-    payload: post
-  });
-
-  export const updatePostFailure = () => ({
-    type: UPDATE_POST_FAILURE
-  });
-
-// EDIT POST
-export function editPostAction(id) {
-  return dispatch => {
-    dispatch(editPost(id));
-
-    setTimeout(() => {
-      axiosClient
-      .get(`./posts/${id}`)
-      .then( response =>{
-        console.log(response.data)
-        dispatch(editPostSuccess(response.data))
-      })
-      .catch(error =>{
-        console.log(error);
-        dispatch(editPostFailure());
-      });
-    }, 500)
-    };
-  }
-
-  export const editPost = () => ({
-    type: EDIT_POST
-  });
-
-  export const editPostSuccess = (post) => ({
-    type: EDIT_POST_SUCCESS,
-    payload: post
-  });
-
-  export const editPostFailure = () => ({
-    type: EDIT_POST_FAILURE
-  });
