@@ -1,0 +1,9 @@
+.loading-wrapper {
+  z-index: 99999;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}

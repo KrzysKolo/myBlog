@@ -1,0 +1,44 @@
+/* font-family: 'Barrio', cursive;
+font-family: 'Cutive Mono', monospace;
+font-family: 'Meddon', cursive;
+font-family: 'Princess Sofia', cursive;
+font-family: 'Snowburst One', cursive; */
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav h1 {
+  color: #b30070;
+  font-family: "Princess Sofia", cursive;
+  font-size: 2.4rem;
+  letter-spacing: 8px;
+  margin-left: 3rem;
+  padding: 0.8rem;
+  text-shadow: 2px 2px 7px #151a44;
+}
+
+nav ul {
+  font-family: "Cutive Mono", monospace;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-right: 3rem;
+}
+.link {
+  font-weight: 600;
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #151a44;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #b30070;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.link:hover {
+  color: #b30070;
+  background: #151a44;
+}

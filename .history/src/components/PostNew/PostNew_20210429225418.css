@@ -1,0 +1,19 @@
+.form-preview {
+  margin-top: 2rem;
+  border: 1px solid #151a44;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  width: 40vw;
+}
+.form-preview .form-title {
+  font-size: 2rem;
+  color: #b30070;
+  padding: 0.75rem;
+  margin: 0.5rem;
+  text-align: center;
+  font-family: "Meddon", cursive;
+  border-bottom: 1px solid #efefef;
+}
+.textarea {
+  background-color: yellow;
+}

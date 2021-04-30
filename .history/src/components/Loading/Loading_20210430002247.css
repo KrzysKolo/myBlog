@@ -1,0 +1,9 @@
+.loading-wrapper {
+  background-color: rgba(233, 21, 45, 0.4);
+  z-index: 99999;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}

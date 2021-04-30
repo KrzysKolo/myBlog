@@ -1,0 +1,65 @@
+.post-preview {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 80vw;
+  margin-bottom: 2rem;
+  font-family: "Princess Sofia", cursive;
+  color: #151a44;
+}
+.header-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+.header-icons .ico {
+  margin-right: 0.75rem;
+  cursor: pointer;
+  color: #b30070;
+  font-size: 1.25rem;
+  transition: all 0.2s ease-in-out;
+}
+.header-icons .ico:hover {
+  color: #151a44;
+}
+.section__post-preview {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 0.8rem;
+}
+.section__post-preview .photo {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  border: 2px solid #151a44;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-right: 1rem;
+}
+.section__post-preview .photo img {
+  height: 99%;
+  border-radius: 50%;
+}
+.section__post-preview .title-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 1rem;
+}
+.section__post-preview .title-info .title-post {
+  font-size: 1.75rem;
+  color: #b30070;
+}
+.section__post-preview .title-info .title-author {
+  font-family: "Times New Roman", Times, serif;
+}
+.post {
+  margin: 1rem;
+  font-size: 1.3rem;
+}

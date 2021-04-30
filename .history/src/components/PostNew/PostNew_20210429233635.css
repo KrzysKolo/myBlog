@@ -1,0 +1,57 @@
+.form-preview {
+  margin-top: 1rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  width: 35vw;
+}
+.form-preview .form-title {
+  font-size: 2rem;
+  color: #b30070;
+  padding: 0.75rem;
+  text-align: center;
+  font-family: "Meddon", cursive;
+  border-bottom: 1px solid #efefef;
+}
+.form-wrapper {
+  padding: 0.75rem;
+  margin: 0 2.5rem;
+}
+.form-wrapper .form-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  font-size: 1rem;
+  padding: 3px 6px;
+  margin: 0.5rem 0;
+  color: #151a44;
+}
+.btn-wrapper {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btn {
+  color: #b30070;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #b30070;
+  border-radius: 10px;
+  padding: 5px 10px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 1px 1px 4px #b30070;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.btn:hover {
+  color: #151a44;
+  border: 1px solid #151a44;
+  box-shadow: 1px 1px 4px #151a44;
+}
+.error {
+  color: #b30070;
+  font-size: 0.9rem;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}

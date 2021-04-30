@@ -1,0 +1,18 @@
+.form-preview {
+  margin-top: 2rem;
+  border: 1px solid #151a44;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  width: 40vw;
+}
+.form-preview .form-title {
+  font-size: 1.75rem;
+  color: #b30070;
+  padding: 0.75rem;
+  text-align: center;
+  margin: 1rem 0;
+  font-family: "Snowburst One", cursive;
+}
+.textarea {
+  background-color: yellow;
+}

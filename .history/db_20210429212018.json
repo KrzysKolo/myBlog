@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Welcome to the new blog",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis ornare sollicitudin. Maecenas accumsan, lectus at imperdiet cursus, augue nibh pharetra lacus, at placerat leo erat maximus nibh. Nunc tincidunt lorem nulla, laoreet aliquet lorem cursus ut. Integer arcu ante, ornare eu egestas eget, tincidunt at neque. Suspendisse a suscipit.",
+      "author": "Tomasz Kołodziejczak",
+      "photo": "https://randomuser.me/api/portraits/men/65.jpg"
+
+    },
+    {
+      "id": 2,
+      "title": "Jak być przed rozwodem?",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis ornare sollicitudin. Maecenas accumsan, lectus at imperdiet cursus, augue nibh pharetra lacus, at placerat leo erat maximus nibh. Nunc tincidunt lorem nulla, laoreet aliquet lorem cursus ut. Integer arcu ante, ornare eu egestas eget, tincidunt at neque. Suspendisse a suscipit.",
+      "author": "Krzysztofa Kołodziejczak",
+      "photo": ""
+
+    },
+    {
+      "id": 3,
+      "title": "coś tam jeszczeg",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis ornare sollicitudin. Maecenas accumsan, lectus at imperdiet cursus, augue nibh pharetra lacus, at placerat leo erat maximus nibh. Nunc tincidunt lorem nulla, laoreet aliquet lorem cursus ut. Integer arcu ante, ornare eu egestas eget, tincidunt at neque. Suspendisse a suscipit.",
+      "author": "Barbara Kołodziejczak",
+      "photo": "https://randomuser.me/api/portraits/women/73.jpg"
+
+    }
+  ]
+}

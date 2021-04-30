@@ -1,0 +1,14 @@
+.form-preview {
+  margin-top: 2rem;
+  border: 1px solid #151a44;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  width: 40vw;
+}
+.textarea {
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
