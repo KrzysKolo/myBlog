@@ -17,8 +17,6 @@ import { useParams, useHistory } from 'react-router-dom';
 const PostDetails = () => {
 
   const { id } = useParams();
-  let history = useHistory();
-
   console.log(id)
   const dispatch = useDispatch();
 
@@ -31,16 +29,15 @@ const PostDetails = () => {
 
   console.log(id)
   console.log(post)
+  //console.log(error)
 
+  //if(!post) return "Loading...";
   //EDIT POST
   const [showFormEditPost, setShowEditPost] = useState(false);
 
   const openFormEditPost = ( { id }) => {
     setShowEditPost(prev => !prev);
   };
-  const backToHomePage = () => {
-    history.push('/')
-  }
 
   return (
     <>
@@ -51,8 +48,8 @@ const PostDetails = () => {
       <section className="post-preview">
         <header className="header">
            <div className="header-icons">
-              <FontAwesomeIcon icon={faBackward} className="ico" onClick={backToHomePage}/>
-              <FontAwesomeIcon icon={faEdit} className="ico" onClick={openFormEditPost}  />
+              <FontAwesomeIcon icon={faBackward} className="ico" onClick={() => console.log("powrót")}/>
+              <FontAwesomeIcon icon={faEdit} className="ico" onClick={openFormEditPost} name="Edit Post"  />
             </div>
             <section className="section__post-preview">
               <div className="photo">

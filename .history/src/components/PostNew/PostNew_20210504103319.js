@@ -46,8 +46,8 @@ const PostNew = () => {
       photo: values.photo ? values.photo : "https://as2.ftcdn.net/jpg/03/17/59/23/1000_F_317592306_6B3DH5u4NMG2uAF068da5QMcWhR2QTBN.jpg",
     };
     addPost(newPost);
-    history.push('/');
     restForm();
+
   };
 
   return (
@@ -73,6 +73,7 @@ const PostNew = () => {
                 <TextField label="Photo (URL): " name="photo" type="text" size="40" />
                 <div className="btn-wrapper">
                   <button className="btn" type="submit">Add Post</button>
+                  {/* <button className="btn" type="reset">Reset</button> */}
                 </div>
               </Form>
             </div>

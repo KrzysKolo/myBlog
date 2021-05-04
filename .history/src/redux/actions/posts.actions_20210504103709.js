@@ -107,7 +107,7 @@ export function getPostsAction () {
         .then( response =>{
           console.log(response.data)
           dispatch(newPostSuccess(post))
-          history.push("/");
+          history.push("/NewPost");
 
         })
         .catch(error =>{

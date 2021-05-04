@@ -42,7 +42,7 @@ const handleUpdateProduct = e => {
   });
   postUpdate(postUpdate);
   closeForm();
-  history.push(`/`);
+  //history.push(`/post/${id}`);
 
 };
   return (

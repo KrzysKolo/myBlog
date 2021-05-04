@@ -10,7 +10,7 @@ import { useParams, useHistory } from 'react-router-dom';
 const PostEdit = ({ showFormEditPost, setShowEditPost }) => {
 
 const { id } = useParams();
-let history = useHistory();
+const { history } = useHistory();
 
 const titleRef = useRef("");
 const bodyRef = useRef("");
@@ -42,7 +42,7 @@ const handleUpdateProduct = e => {
   });
   postUpdate(postUpdate);
   closeForm();
-  history.push(`/`);
+  history.push('/');
 
 };
   return (

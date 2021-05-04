@@ -208,7 +208,7 @@ export function updatePostAction(post) {
       .then( response =>{
         console.log(response.data)
         dispatch(updatePostSuccess(response.data))
-
+        history.push(`/post/${post.id}`);
       })
       .catch(error =>{
         console.log(error);
