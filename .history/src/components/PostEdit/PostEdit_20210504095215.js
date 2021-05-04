@@ -3,7 +3,7 @@ import './PostEdit.css';
 
 //import { connect } from 'react-redux'
 import { useDispatch, useSelector } from 'react-redux';
-import { showPostAction, updatePostAction } from './../../redux/actions/posts.actions';
+import { editPostAction, updatePostAction } from './../../redux/actions/posts.actions';
 
 import { useParams } from 'react-router-dom';
 
@@ -23,7 +23,7 @@ const postUpdate = post => (dispatch(updatePostAction(post)));
 };
 
 useEffect(() => {
-  dispatch(showPostAction(id));
+  dispatch(editPostAction(id));
 }, [dispatch, id]);
 
 const post = useSelector(state => state.posts.post);
