@@ -30,7 +30,8 @@ const BlogList = ({ blogs}) => {
         <div className="photo">
           <img src={blog.photo} alt={blog.author} />
         </div><h4>Written by: {blog.author}</h4></div>
-        </div>
+        <p>{blog.body}</p>
+      </div>
     ));
     return (
       <div>
