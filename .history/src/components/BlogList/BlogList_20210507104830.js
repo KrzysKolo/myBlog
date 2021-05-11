@@ -6,7 +6,7 @@ import './BlogList.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMinusSquare } from '@fortawesome/free-solid-svg-icons';
 
-
+//import { connect } from 'react-redux'
 import { useDispatch } from 'react-redux';
 import { deletePostAction } from './../../redux/actions/posts.actions';
 
@@ -30,7 +30,7 @@ const BlogList = ({ blogs}) => {
         <div className="photo">
           <img src={blog.photo} alt={blog.author} />
         </div><h4>Written by: {blog.author}</h4></div>
-        <p>`${blog.body.substring(0, 200)}...`</p>;
+        <p>`${blog.body.substring(0, 20)}...`</p>;
         </div>
     ));
     return (

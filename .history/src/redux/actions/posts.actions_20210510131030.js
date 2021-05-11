@@ -56,9 +56,9 @@ export function getPostsAction () {
     type: POSTS_GET_REQUEST
   });
 
-  export const getPostsSucces = posts => ({
+  export const getPostsSucces = products => ({
     type: POSTS_GET_SUCCESS,
-    payload: posts
+    payload: products
   });
 
   export const getPostsFailure = () => ({

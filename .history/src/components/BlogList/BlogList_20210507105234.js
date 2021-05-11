@@ -6,7 +6,7 @@ import './BlogList.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMinusSquare } from '@fortawesome/free-solid-svg-icons';
 
-
+//import { connect } from 'react-redux'
 import { useDispatch } from 'react-redux';
 import { deletePostAction } from './../../redux/actions/posts.actions';
 
