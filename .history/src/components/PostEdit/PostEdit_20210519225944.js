@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './PostEdit.css';
 
-//import from 'react-redux'
+//import { connect } from 'react-redux'
 import { useDispatch, useSelector } from 'react-redux';
 import { showPostAction, updatePostAction } from './../../redux/actions/posts.actions';
 

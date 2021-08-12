@@ -4,7 +4,7 @@
       "id": 1,
       "title": "Welcome to the new blog",
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce iaculis ornare sollicitudin. Maecenas accumsan, lectus at imperdiet cursus, augue nibh pharetra lacus, at placerat leo erat maximus nibh. Nunc tincidunt lorem nulla, laoreet aliquet lorem cursus ut. Integer arcu ante, ornare eu egestas eget, tincidunt at neque. Suspendisse a suscipit.",
-      "author": "Tomasz Kołodziejczak",
+      "author": "Tomasz Kołodziejczyk",
       "photo": "https://randomuser.me/api/portraits/men/65.jpg"
     },
     {
@@ -20,6 +20,13 @@
       "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere tortor arcu. Mauris sed lacus nec velit bibendum hendrerit nec quis tellus. Nullam vehicula ante at diam molestie elementum. Fusce suscipit sit amet ligula at molestie. Proin sit amet lobortis odio, vitae aliquam ex. Phasellus pellentesque massa libero, a efficitur nulla aliquet at. Maecenas ac sagittis justo, condimentum consectetur mauris. Maecenas auctor tortor sed semper cursus. Phasellus ornare hendrerit auctor. Nullam ligula ex, pellentesque sit amet bibendum mattis, accumsan vitae lacus.\n\nFusce imperdiet pellentesque magna nec dictum. Phasellus molestie consequat odio. Sed sit amet magna a enim rutrum lobortis vel vel nisl. Morbi at ex lorem. Praesent ac augue nec elit aliquet malesuada. Phasellus scelerisque erat non massa convallis, eu tincidunt odio accumsan. Praesent blandit molestie vestibulum. Aenean gravida dui sit amet tellus tincidunt, eu convallis massa molestie. Nunc fringilla nulla id quam facilisis, in bibendum quam rhoncus. Vestibulum laoreet nisl ac purus maximus, in venenatis ipsum porttitor. Curabitur at commodo elit, ut blandit sem. Donec lobortis tortor tempor, euismod nulla at, eleifend metus. Aenean aliquam luctus tellus ac pellentesque. Nullam ac elementum arcu, id interdum nulla. Sed ut metus quam. Aliquam mattis ornare ante, a dapibus enim molestie vel.\n\nSed vitae lorem dui. Integer in velit sit amet nibh cursus lacinia a sed ex. Maecenas scelerisque venenatis dui, a interdum enim. Sed at mauris eget tellus maximus bibendum ac eget est. Praesent id sapien et nisl faucibus gravida. Integer tristique interdum neque non tempor. Pellentesque pretium vestibulum magna sed auctor. Morbi ut commodo orci. Donec elit odio, condimentum ac rhoncus ac, mattis vel dui. Vivamus pharetra, nibh sit amet blandit ullamcorper, nisl est faucibus nunc, vel cursus libero nulla nec nunc.\n\nAliquam in purus purus. Nunc ligula tortor, facilisis eu maximus vel, tempor quis lectus. Vivamus cursus ut.",
       "author": "Barbara Kołodziejczak",
       "photo": "https://randomuser.me/api/portraits/women/94.jpg"
+    },
+    {
+      "id": "739350e2-f3f0-4f77-b9b2-c52168ada37f",
+      "title": "Test",
+      "body": "Jakiś tekst testowy",
+      "author": "Joanna Kowalska",
+      "photo": "https://cdn.pixabay.com/photo/2017/09/21/07/47/girl-2771001_960_720.jpg"
     }
   ]
 }
