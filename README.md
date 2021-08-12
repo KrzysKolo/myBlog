@@ -1,8 +1,3 @@
-#uruchomienie serwera
-<h4>npm run start:db</h4> - serwer działa na porcie 4001
-#uruchomienie aplikacji
-<h4>npm start</h4>
-
 <h5>Uruchomienie serwera: <b>npm run start:db</h5>
 <h5>Uruchomienie aplikacji: <b>npm start</h5>
   <img src="demo/demo1.jpg" alt="MyBlog" width="450px">
