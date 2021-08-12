@@ -1,3 +1,9 @@
+#uruchomienie serwera
+<h4>npm run start:db</h4> - serwer działa na porcie 4001
+#uruchomienie aplikacji
+<h4>npm start</h4>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
