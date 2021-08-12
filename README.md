@@ -5,10 +5,10 @@
 
 <h5>Uruchomienie serwera: <b>npm run start:db</h5>
 <h5>Uruchomienie aplikacji: <b>npm start</h5>
-  <img src="demo/demo1.jpg" alt="MyBlog" width="550px">
-  <img src="demo/demo2.jpg" alt="MyBlog" width="550px">
-  <img src="demo/demo3.jpg" alt="MyBlog" width="550px">
-   <img src="demo/demo4.jpg" alt="MyBlog" width="550px">
+  <img src="demo/demo1.jpg" alt="MyBlog" width="450px">
+  <img src="demo/demo2.jpg" alt="MyBlog" width="450px">
+  <img src="demo/demo3.jpg" alt="MyBlog" width="450px">
+   <img src="demo/demo4.jpg" alt="MyBlog" width="450px">
 
 
 # Getting Started with Create React App
